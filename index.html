@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Цветы</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f0fdf4;
+}
+
+header {
+    background: #16a34a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Коллекция цветов</h1>
+<p>Роза, тюльпан, лилия, орхидея, пион</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Роза</h2>
+<img src="images/rose.jpg">
+<p>Классический красивый цветок.</p>
+</div>
+
+<div class="card">
+<h2>Тюльпан</h2>
+<img src="images/tulip.jpg">
+<p>Весенний яркий цветок.</p>
+</div>
+
+<div class="card">
+<h2>Лилия</h2>
+<img src="images/lily.jpg">
+<p>Нежный и ароматный цветок.</p>
+</div>
+
+<div class="card">
+<h2>Орхидея</h2>
+<img src="images/orchid.jpg">
+<p>Экзотический цветок.</p>
+</div>
+
+<div class="card">
+<h2>Пион</h2>
+<img src="images/peony.jpg">
+<p>Пышный декоративный цветок.</p>
+</div>
+
+</div>
+
+</body>
+</html>
